@@ -1,0 +1,30 @@
+textarea {
+    min-height: 400px;
+}
+
+#email-group {
+    display: grid;
+    grid-template-columns: 1000px 100px;
+    margin-bottom: 3px;
+    height: 40px;
+}
+
+#email-container { 
+    border: solid; 
+    border-width: 1px; 
+    display: grid;
+    grid-template-columns: 200px 590px 200px;
+    padding: 3px;
+    align-content: center;
+}
+
+#email-timestamp {
+    color: rgb(136, 134, 134);
+    text-align: right;
+    overflow: hidden;
+}
+
+#email-archived {
+    width: 100px;
+    height: 40px;
+}
